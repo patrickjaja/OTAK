@@ -2,3 +2,7 @@ node_modules
 bower_components
 dist
 .tmp
+sublime-gulp.log
+.sublime-gulp.cache
+.editorconfig
+wsk.sublime-project
