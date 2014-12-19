@@ -1,7 +1,7 @@
 ## Overview
 
 Fast time accounting webapp. (OTAK - Open Time Accounting Kit)
-(State: In development - Not released yet)
+(<b>State:</b> In development - Not released yet)
 
 ## Quickstart
 
