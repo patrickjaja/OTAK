@@ -1,8 +1,8 @@
 /*
- * Web Starter Kit
+ * Open Time Accounting Kit
  *
  * Multi-screen layout styles for your page. Brought to you by the
- * Web Starter Kit team.
+ * Open Time Accounting Kit team.
  *
  */
 @import '_h5bp';
@@ -68,7 +68,7 @@ body.open {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  font-size: 2em;
+  font-size: 1.2em;
   line-height: 60px;
   margin: 0 16px;
   padding: 0;
@@ -315,6 +315,12 @@ main {
   body {
     overflow-y: scroll;
   }
+
+  .time-quicknav {
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+  }
 }
 
 @font-face {
@@ -398,3 +404,36 @@ main {
 .tabsdemoDynamicTabs .md-button.add-tab {
   margin-top: 20px;
   max-height: 30px !important; }
+
+.face {
+  width: 48px;
+  height: 48px; 
+}
+
+.md-subheader {
+  padding: 20px 0px 16px 16px;
+}
+
+.md-actions > .md-delete {
+  width: 30px !important;
+  height: 30px !important;
+
+}
+
+.time-padding-small {
+  margin-bottom: 0.5em;
+}
+
+.time-side-nav {
+  width: 40px;
+  padding: 0.5em;
+}
+
+.time-side-nav>button {
+  margin-top: 0.5em;
+}
+
+.time-entry {
+  padding-top: 0.5em;
+}
+

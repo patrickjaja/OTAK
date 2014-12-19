@@ -13,7 +13,7 @@ Clone this repository and build on what is included in the `app` directory.
 
 -
 
-To take advantage of Web Starter Kit you need to:
+To take advantage of Open Time Accounting Kit you need to:
 
 1. Get a copy of the code.
 2. Install the dependencies if you don't already have them.
@@ -47,13 +47,13 @@ $ npm install --global gulp
 
 ### Local dependencies
 
-Next, install the local dependencies Web Starter Kit requires:
+Next, install the local dependencies Open Time Accounting Kit requires:
 
 ```sh
 $ npm install
 ```
 
-That's it! You should now have everything needed to use the Web Starter Kit.
+That's it! You should now have everything needed to use the Open Time Accounting Kit.
 
 -
 
