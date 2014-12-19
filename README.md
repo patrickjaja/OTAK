@@ -1,7 +1,7 @@
 ## Overview
 
-Fast time accounting webapp. (TAK - Time Accounting Kit)
-(Demo Application)
+Fast time accounting webapp. (OTAK - Open Time Accounting Kit)
+(State: In development - Not released yet)
 
 ## Quickstart
 
@@ -9,7 +9,7 @@ Clone this repository and build on what is included in the `app` directory.
 
 # Install
 
-**tl;dr**: [Download OTAK](https://github.com/patrickjaja/Time-Accounting-Kit/releases) and run `$ npm install --global gulp && npm install` in that directory to get started.
+**tl;dr**: [Download OTAK](https://github.com/patrickjaja/OTAK/releases) - or clone repo! and run `$ npm install --global gulp && npm install` in that directory to get started.
 
 -
 
@@ -22,7 +22,7 @@ To take advantage of Open Time Accounting Kit you need to:
 
 ## Getting the code
 
-[Download](https://github.com/patrickjaja/Time-Accounting-Kit/releases) and extract WSK to where you want to work.
+[Download](https://github.com/patrickjaja/OTAK/releases) and extract OTAK to where you want to work.
 
 ## Prerequisites
 
@@ -80,7 +80,7 @@ At present, we officially aim to support the following browsers:
 * Android / Chrome 4.4, 4.4.3
 * BlackBerry 10
 
-This is not to say that [smartAccounting] cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.
+This is not to say that [OTAK] cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.
 
 ## Troubleshooting
 

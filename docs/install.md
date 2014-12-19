@@ -1,6 +1,6 @@
 # Install
 
-**tl;dr**: [Download WSK](https://github.com/patrickjaja/Time-Accounting-Kit/releases) and run `$ npm install --global gulp && npm install` in that directory to get started.
+**tl;dr**: [Download OTAK](https://github.com/patrickjaja/OTAK/releases) and run `$ npm install --global gulp && npm install` in that directory to get started.
 
 -
 
