@@ -81,6 +81,9 @@ gulp.task('copy', function () {
 
 // Copy Web Fonts To Dist
 gulp.task('fonts', function () {
+  gulp.src(['bower_components/bootstrap/fonts/**'])
+    .pipe(gulp.dest('dist/fonts'))
+    .pipe($.size({title: 'fonts'}));
   return gulp.src(['app/fonts/**'])
     .pipe(gulp.dest('dist/fonts'))
     .pipe($.size({title: 'fonts'}));

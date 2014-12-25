@@ -6,3 +6,4 @@ sublime-gulp.log
 .sublime-gulp.cache
 .editorconfig
 wsk.sublime-project
+wsk.sublime-workspace

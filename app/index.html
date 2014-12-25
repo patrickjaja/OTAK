@@ -37,24 +37,34 @@
 
     <!-- build:css style.min.css -->
 
-      <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
-      <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css">
+
+      
       <link rel="stylesheet" href="../bower_components/angular-material/themes/indigo-theme.css">
+      <link rel="stylesheet" href="../bower_components/angular-material/themes/orange-theme.css">
+      <!-- http://google.github.io/material-design-icons/ -->
+      <link rel="stylesheet" href="../bower_components/material-design-icons/sprites/svg-sprite/svg-sprite-navigation.css">
+      <link rel="stylesheet" href="../bower_components/material-design-icons/sprites/svg-sprite/svg-sprite-action.css">
+      <link rel="stylesheet" href="../bower_components/material-design-icons/sprites/svg-sprite/svg-sprite-editor.css">
+      <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css">
       <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
     <!-- Page styles -->
     
   </head>
+  <!-- ANGULAR TEMPLATES -->
+
+
   <body ng-app="starterApp" md-theme="indigo">
     <header class="app-bar promote-layer" ng-controller="dialogCtrl">
       <div class="app-bar-container">
         <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
         <h1 class="logo">Open <strong>Time-Accounting Kit</strong> </h1>
-
-        <md-button class="md-fab md-primary time-quicknav" aria-label="Time" ng-click="showNewEntry($event)">
-            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-        </md-button>
+        <div class="md-actions" layout="row">
+          <md-button aria-label="search"><div class="svg-ic_search_24px icon_small_size" ng-click="showNewEntry($event);"></div></md-button>
+          <md-button aria-label="options"><div class="svg-ic_more_vert_24px icon_small_size"></div></md-button>
+        </div>
+        
         <section class="app-bar-actions">
         <!-- Put App Bar Buttons Here -->
         <!-- e.g <button><i class="icon icon-star"></i></button> -->
@@ -65,7 +75,10 @@
     <nav class="navdrawer-container promote-layer">
       <h4>Navigation</h4>
       <ul>
-        <li><a href="#">Projekte</a></li>
+        <li><a href="#">Zeiterfassung</a></li>
+        <li><a href="#">Urlaubsplaner</a></li>
+        <li><a href="#">Auftragsverwaltung</a></li>
+        <li><a href="#">Inventar</a></li>
         <li><a href="#">Reporting</a></li>
         <li><a href="styleguide.html">Style Guide</a></li>
       </ul>
@@ -86,7 +99,7 @@
                         <md-item-content>
                           <div class="md-actions" layout="column">
                             <md-button class="md-fab md-accent md-delete time-padding-small" aria-label="Time">
-                                  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                                   <div class="svg-ic_mode_edit_24px icon_small_size"></div>
                               </md-button>
                             <span flex></span>
                             <md-button class="md-fab md-warn md-delete" aria-label="Time">

@@ -1,6 +1,6 @@
 # Contributing
 
-*[Website](https://developers.google.com/web/starter-kit/) related issues should be filed on the [Web Fundamentals](https://github.com/google/WebFundamentals/issues/new) issue tracker.*
+*[Website](https://github.com/patrickjaja/OTAK/) related issues should be filed on the issue tracker.*
 
 Open Time Accounting Kit is an open source project. It is licensed using the
 [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).

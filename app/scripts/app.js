@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('starterApp', ['ngMaterial']); 
+var app = angular.module('starterApp', ['ngMaterial']).run(function($templateCache,$http){; 
 // angular.module('starterApp')
 //   .controller('MainCtrl', function ($scope) {
 //     $scope.awesomeThings = [
@@ -8,7 +8,8 @@ var app = angular.module('starterApp', ['ngMaterial']);
 //       'AngularJS',
 //       'Karma'
 //     ];
-//   });
+    $http.get('templates/dialog_new_entry.html', {cache:$templateCache});
+   });
 
 app.controller('dialogCtrl', function($scope, $mdDialog) {
   $scope.showNewEntry = function(ev) {
